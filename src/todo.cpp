@@ -38,6 +38,9 @@ void Todo::clearTasks() {
         m_tasks.clear();
         std::println("Your tasks have been cleared");
     }
+    else {
+        std::println("Invalid response aborting...");
+    }
 }
 
 void Todo::listTasks() const {
